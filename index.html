@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Let's go on vacation</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&family=Sigmar&display=swap" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+    <header>
+      <h1>Let's Go On Vacation</h1>
+    </header>
+
+    <!-- STEP 1 Starts here -->
+    <div id="step-1">
+      <h3>What's your name?</h3>
+      <p><input type="text" id="name" placeholder="Enter your name here"></p>
+
+      <h3>How many miles are you willing to travel?</h3>
+      <p>
+        0 <input type="range" id="distance" min="0" max="5000" value="2500" /> 5000
+      </p>
+
+      <button id="lets-go">Let's Go!</button>
+    </div>
+
+    <!-- STEP 2 Starts here -->      
+    <div id="step-2" style="display: none;">
+      <!-- Fill in with JS -->
+      Step 2 goes here!
+    </div>
+
+    <!-- STEP 3 Starts here -->
+    <div id="step-3" style="display: none;">
+      <!-- Fill in with JS -->
+    </div>      
+
+    <script src="script.js"></script>
+	</body>
+</html>
